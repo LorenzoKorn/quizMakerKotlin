@@ -5,4 +5,10 @@
     <string name="welcome_text">Welcome to the Quiz Maker. Please create a question before starting the quiz.</string>
     <string name="create">Create quiz</string>
     <string name="start">Start quiz</string>
+
+    <!-- CREATE QUIZ FRAGMENT -->
+    <string name="create_here">Create your quiz here</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="create_btn">Create</string>
 </resources>
