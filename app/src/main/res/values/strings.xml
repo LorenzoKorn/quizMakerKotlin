@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Quiz-maker-kotlin</string>
+
+    <!-- HOME FRAGMENT -->
+    <string name="welcome_text">Welcome to the Quiz Maker. Please create a question before starting the quiz.</string>
+    <string name="create">Create quiz</string>
+    <string name="start">Start quiz</string>
 </resources>
