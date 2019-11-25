@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Quiz-maker-kotlin</string>
+    <string name="error">Please create a question before starting a quiz</string>
+    <string name="correct">Your answer is correct</string>
+    <string name="wrong">Your answer is wrong! The correct answer is: %s</string>
 
     <!-- HOME FRAGMENT -->
     <string name="welcome_text">Welcome to the Quiz Maker. Please create a question before starting the quiz.</string>

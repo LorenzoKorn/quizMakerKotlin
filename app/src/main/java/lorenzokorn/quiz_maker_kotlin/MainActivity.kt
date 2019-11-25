@@ -3,16 +3,22 @@ package lorenzokorn.quiz_maker_kotlin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var viewModel: QuizViewModel
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // init viewmodel
+        viewModel = ViewModelProviders.of(this).get(QuizViewModel::class.java)
         initNavigation()
     }
 
